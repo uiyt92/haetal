@@ -15,6 +15,8 @@
             background-color: #050505;
             color: #e5e7eb;
             overflow-x: hidden;
+            word-break: keep-all;
+            /* Prevent awkward Korean word breaks globally */
         }
 
         /* Silver Gradient (Previously Gold) */
@@ -184,28 +186,32 @@
                     class="glass p-6 rounded-3xl text-center border border-white/5 hover:border-red-600/30 transition flex flex-col items-center min-h-[200px]">
                     <i class="fa-solid fa-comment-slash text-3xl mb-4 text-red-500/70"></i>
                     <h4 class="text-base font-bold text-gray-200 mb-2">읽씹 & 잠수</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">5분마다 카톡을 확인하지만<br>숫자 1은 지워지지 않습니다.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed">5분마다 카톡을 확인하지만<br class="hidden md:inline">숫자 1은
+                        지워지지 않습니다.</p>
                 </div>
                 <!-- External 2 -->
                 <div
                     class="glass p-6 rounded-3xl text-center border border-white/5 hover:border-red-600/30 transition flex flex-col items-center min-h-[200px]">
                     <i class="fa-solid fa-hand text-3xl mb-4 text-red-500/70"></i>
                     <h4 class="text-base font-bold text-gray-200 mb-2">애프터 거절</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">"나중에 봐요", "바빠서요"<br>라는 말만 돌아옵니다.</p>
+                    <p class="text-gray-500 text-sm leading-relaxed">"나중에 봐요", "바빠서요"<br class="hidden md:inline">라는 말만
+                        돌아옵니다.</p>
                 </div>
                 <!-- External 3 -->
                 <div
                     class="glass p-6 rounded-3xl text-center border border-white/5 hover:border-red-600/30 transition flex flex-col items-center min-h-[200px]">
                     <i class="fa-solid fa-user-slash text-3xl mb-4 text-red-500/70"></i>
                     <h4 class="text-base font-bold text-gray-200 mb-2">"좋은 사람" 존</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">"오빠는 진짜 좋은 사람인데...<br>남자로는 안 보여요"</p>
+                    <p class="text-gray-500 text-sm leading-relaxed">"오빠는 진짜 좋은 사람인데...<br class="hidden md:inline">남자로는
+                        안 보여요"</p>
                 </div>
                 <!-- External 4 -->
                 <div
                     class="glass p-6 rounded-3xl text-center border border-white/5 hover:border-red-600/30 transition flex flex-col items-center min-h-[200px]">
                     <i class="fa-solid fa-hand-holding-heart text-3xl mb-4 text-red-500/70"></i>
                     <h4 class="text-base font-bold text-gray-200 mb-2">스킨십 거절</h4>
-                    <p class="text-gray-500 text-sm leading-relaxed">어깨에 손을 올리는 순간<br>"우리는 너무 이른거 같아"</p>
+                    <p class="text-gray-500 text-sm leading-relaxed">어깨에 손을 올리는 순간<br class="hidden md:inline">"우리는 너무
+                        이른거 같아"</p>
                 </div>
             </div>
 
@@ -277,7 +283,7 @@
                 <div
                     class="bg-red-950/20 p-6 rounded-3xl border border-red-900/30 flex flex-col items-center text-center min-h-[160px] md:min-h-[180px]">
                     <i class="fa-solid fa-receipt text-red-500 text-3xl mb-4"></i>
-                    <p class="text-gray-300 text-sm leading-relaxed">주말마다 클럽과 라운지를 가지만<br><span
+                    <p class="text-gray-300 text-sm leading-relaxed">주말마다 클럽과 라운지를 가지만<br class="hidden md:inline"><span
                             class="text-red-400 font-bold">손에 남는 건 영수증</span>뿐입니다.</p>
                 </div>
                 <!-- Card 2 -->
@@ -285,20 +291,20 @@
                     class="bg-red-950/20 p-6 rounded-3xl border border-red-900/30 flex flex-col items-center text-center min-h-[160px] md:min-h-[180px]">
                     <i class="fa-solid fa-user-group text-red-500 text-3xl mb-4"></i>
                     <p class="text-gray-300 text-sm leading-relaxed">"나는 왜 <span class="text-red-400 font-bold">쟤밖에 못
-                            만나지?</span>"<br>스스로 물으며 타협합니다.</p>
+                            만나지?</span>"<br class="hidden md:inline">스스로 물으며 타협합니다.</p>
                 </div>
                 <!-- Card 3 -->
                 <div
                     class="bg-red-950/20 p-6 rounded-3xl border border-red-900/30 flex flex-col items-center text-center min-h-[160px] md:min-h-[180px]">
                     <i class="fa-solid fa-bed text-red-500 text-3xl mb-4"></i>
                     <p class="text-gray-300 text-sm leading-relaxed">자기 전 SNS에서 <span class="text-red-400 font-bold">그녀의
-                            새 남친</span><br>사진을 봅니다. 둘이 행복해 보입니다.</p>
+                            새 남친</span><br class="hidden md:inline">사진을 봅니다. 둘이 행복해 보입니다.</p>
                 </div>
                 <!-- Card 4 -->
                 <div
                     class="bg-red-950/20 p-6 rounded-3xl border border-red-900/30 flex flex-col items-center text-center min-h-[160px] md:min-h-[180px]">
                     <i class="fa-solid fa-clock-rotate-left text-red-500 text-3xl mb-4"></i>
-                    <p class="text-gray-300 text-sm leading-relaxed">유튜브 연애 영상만 보다가<br><span
+                    <p class="text-gray-300 text-sm leading-relaxed">유튜브 연애 영상만 보다가<br class="hidden md:inline"><span
                             class="text-red-400 font-bold">또 1년</span>이 지나갑니다.</p>
                 </div>
             </div>
