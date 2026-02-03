@@ -417,18 +417,6 @@
                                 <img src="images/testimonial_5.png" alt="수강생 후기 5"
                                     class="max-w-full max-h-full object-contain rounded-xl">
                             </div>
-                            <div class="flex-shrink-0 w-full h-[600px] bg-black flex items-center justify-center">
-                                <img src="images/testimonial_6.png" alt="수강생 후기 6"
-                                    class="max-w-full max-h-full object-contain rounded-xl">
-                            </div>
-                            <div class="flex-shrink-0 w-full h-[600px] bg-black flex items-center justify-center">
-                                <img src="images/testimonial_7.png" alt="수강생 후기 7"
-                                    class="max-w-full max-h-full object-contain rounded-xl">
-                            </div>
-                            <div class="flex-shrink-0 w-full h-[600px] bg-black flex items-center justify-center">
-                                <img src="images/testimonial_8.png" alt="수강생 후기 8"
-                                    class="max-w-full max-h-full object-contain rounded-xl">
-                            </div>
                         </div>
                     </div>
 
@@ -449,9 +437,7 @@
                         <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="2"></button>
                         <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="3"></button>
                         <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="4"></button>
-                        <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="5"></button>
-                        <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="6"></button>
-                        <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600" data-index="7"></button>
+
                     </div>
                 </div>
             </div>
@@ -1449,7 +1435,7 @@
         const testimonialNextBtn = document.getElementById('nextBtn');
         const testimonialDots = document.querySelectorAll('.carousel-dot');
         let testimonialIndex = 0;
-        const testimonialTotal = 8;
+        const testimonialTotal = 5;
 
         function updateTestimonialCarousel() {
             testimonialTrack.style.transform = `translateX(-${testimonialIndex * 100}%)`;
